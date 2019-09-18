@@ -20,8 +20,8 @@ export default () => {
   const circle2Style = useSpring({
     transform: `scale(${1 - circle2Progress})`
   });
-  const letterProgress = clamp(remap(progress, 0.6, 1, -10, 0), -10, 0);
-  const letterScale = clamp(remap(progress, 0.6, 1, .3, 1), .3, 1);
+  const letterProgress = clamp(remap(progress, 0.5, .8, -10, 0), -10, 0);
+  const letterScale = clamp(remap(progress, 0.5, .8, .3, 1), .3, 1);
   const trail = useTrail(7, { x: letterProgress, scale: letterScale });
   const letters = trail.map(({x, scale}, i) =>
     interpolate([x, scale], (o, oscale) => `translate(${(trail.length - i) * o}, 0) scale(${oscale})`)
