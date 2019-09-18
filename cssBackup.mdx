@@ -1,0 +1,69 @@
+---
+
+import HistorySlide from './components/HistorySlide'
+
+<HistorySlide />
+
+---
+
+# React is a <Hi>declarative</Hi> framework<br/>for building user interfaces
+
+### Which is easiest to explain by example.
+
+---
+
+# <Hi>CSS</Hi> is a good example<br/>of a <Hi>declarative</Hi> language
+
+---
+
+import Css from './examples/Css'
+
+<CodeSurferColumnLayout sizes={[1, 2]}>
+  <Step>
+    <Css text="I'm a button" />
+    <Code
+      code={require("!!raw-loader!./code/css.1.0.css").default}
+      lang="css"
+    />
+  </Step>
+  <Step>
+    <Css text="I'm a button" background='red'/>
+    <Code
+      code={require("!!raw-loader!./code/css.1.1.css").default}
+      lang="css"
+      focus="1:3"
+    />
+  </Step>
+</CodeSurferColumnLayout>
+
+---
+
+# Let's look at some equivalent<br/><Hi>imperative</Hi> Javascript code
+
+---
+
+<CodeSurferColumnLayout sizes={[1, 2]}>
+  <Step>
+    <Css interactive/>
+    <Code
+      code={require("!!raw-loader!./code/imperative.1.1.js").default}
+      lang="js"
+    />
+  </Step>
+</CodeSurferColumnLayout>
+
+---
+
+# React makes it easy to <Hi>declaratively</Hi><br/>change web pages using Javascript
+
+---
+
+<CodeSurferColumnLayout sizes={[1, 2]}>
+  <Step>
+    <Css interactive extra/>
+    <Code
+      code={require("!!raw-loader!./code/jsx.1.0.js").default}
+      lang="jsx"
+    />
+  </Step>
+</CodeSurferColumnLayout>

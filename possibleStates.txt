@@ -1,0 +1,45 @@
+Which sidebar list are you in?
+Is the user currently adding a task?
+How are the tasks sorted?
+Is the sort dialog open?
+Is the search dialog open?
+What text is in the search dialog?
+Is the server currently searching?
+Is the page loading?
+Is the current list loading?
+Is the sidebar collapsed or expanded?
+Is the list menu open?
+Is a list submenu open?
+Is the user logged in?
+What is their profile picture?
+What is their name?
+Is the profile menu open?
+Are there any notifications?
+Is the notification modal open?
+Is the settings modal open?
+Which header theme is selected?
+Which language is being used?
+Is the task completion sound on?
+Is the custom right-click menu enabled?
+Was there an error changing a setting?
+Is the user currently adding a new list?
+What's the text in the new list dialog?
+Is the new list being synced with the server?
+Was there an error adding a new list?
+How many tasks per list?
+What is the title of each list?
+What is the icon of each list?
+What is the current list theme?
+Are completed tasks shown or hidden?
+What is the text of each task?
+Is each task completed?
+Is each task starred?
+Is the advanced task sidebar open?
+Is the current task part of "My Day"?
+What is the due date of each task?
+When is the reminder date per task?
+Is the task repeated?
+Does the task have an attachment?
+What is the name of the task attachment?
+What is the task description?
+Has the task been archived?
