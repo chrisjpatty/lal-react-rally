@@ -31,30 +31,7 @@ export default ({ debug }) => {
   );
   return (
     <Wrapper>
-      <style>
-        {`
-          *{
-            overflow: unset !important;
-          }
-          .circle{
-            width: 150vw;
-            height: 150vw;
-            border-radius: 100%;
-            background: #93d500;
-            position: fixed;
-            left: -37.5vw;
-            top: -47vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: red;
-            font-size: 12vw;
-          }
-          .white{
-            background: #fff;
-          }
-        `}
-      </style>
+      <OverwriteStyles/>
       <animated.svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 209.39 59.83"
@@ -149,3 +126,30 @@ const LogoPercent = styled('div')`
   top: 10vh;
   font-size: 3vw;
 `
+
+const OverwriteStyles = () => (
+  <style>
+    {`
+      *{
+        overflow: unset !important;
+      }
+      .circle{
+        width: 150vw;
+        height: 150vw;
+        border-radius: 100%;
+        background: #93d500;
+        position: fixed;
+        left: -37.5vw;
+        top: -47vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        font-size: 18vw;
+      }
+      .white{
+        background: #fff;
+      }
+    `}
+  </style>
+)
